@@ -1,29 +1,24 @@
-body{
+body {
   text-align: center;
   background-color: #ecf0f1;
   color: #2c3e50;
 }
-.clicked
-{
-  color : #7f8c8d;
-} 
-.btn
-{
+.clicked {
+  color: #7f8c8d;
+}
+.btn {
   cursor: pointer;
 }
 .form,
-.greetings
-{
-  display : none;
+.greetings {
+  display: none;
 }
 
-.showing
-{
+.showing {
   display: block;
 }
 
-@keyframes fadeIn
-{
+@keyframes fadeIn {
   form {
     opacity: 0;
   }
@@ -32,8 +27,7 @@ body{
   }
 }
 
-.bgImage
-{
+.bgImage {
   position: absolute;
   top: 0;
   left: 0;
